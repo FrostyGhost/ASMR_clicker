@@ -1,10 +1,13 @@
 package com.example.frostyghost.asmr_clicker;
 
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -28,6 +31,10 @@ public class MainActivity extends AppCompatActivity {
 
         final MediaPlayer mediaPlayer = MediaPlayer.create(this,R.raw.sponge_long_sound);
 
+        //+animation
+        iv_playground.setBackgroundResource(R.drawable.testanim);
+        final AnimationDrawable animationDrawable = (AnimationDrawable)iv_playground.getBackground();
+
         iv_playground.setClickable(true);
         iv_playground.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,7 +43,13 @@ public class MainActivity extends AppCompatActivity {
                 clickMeter++;
                 tv_clickmeter.setText(String.valueOf(clickMeter));
 
+                //animation
+                animationDrawable.start();
                 //TODO
+
+
+
+
             }
         });
     }
