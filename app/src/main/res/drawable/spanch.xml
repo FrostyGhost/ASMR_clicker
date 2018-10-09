@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animation-list xmlns:android="http://schemas.android.com/apk/res/android"
-    android:oneshot="false">
+    android:oneshot="true">
     <item android:drawable="@drawable/ic_finger_spanch_1" android:duration="60" />
     <item android:drawable="@drawable/ic_finger_spanch_2" android:duration="60" />
     <item android:drawable="@drawable/ic_finger_spanch_3" android:duration="60" />

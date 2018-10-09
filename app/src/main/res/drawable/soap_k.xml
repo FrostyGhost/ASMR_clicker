@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item android:drawable="@drawable/ic_soap_k_1" android:duration="60"  />
+    <item android:drawable="@drawable/ic_soap_k_2" android:duration="60"  />
+    <item android:drawable="@drawable/ic_soap_k_3" android:duration="60"  />
+    <item android:drawable="@drawable/ic_soap_k_4" android:duration="60"  />
+    <item android:drawable="@drawable/ic_soap_k_5" android:duration="60"  />
+    <item android:drawable="@drawable/ic_soap_k_6" android:duration="60"  />
+    <item android:drawable="@drawable/ic_soap_k_7" android:duration="60"  />
+    <item android:drawable="@drawable/ic_soap_k_8" android:duration="60"  />
+    <item android:drawable="@drawable/ic_soap_k_9" android:duration="60"  />
+    <item android:drawable="@drawable/ic_soap_k_10" android:duration="60"  />
+    <item android:drawable="@drawable/ic_soap_k_11" android:duration="60"  />
+    <item android:drawable="@drawable/ic_soap_k_12" android:duration="60"  />
+
+
+</animation-list>
